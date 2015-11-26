@@ -1,0 +1,9 @@
+{
+	"name": "QUnit-T3-Sample",
+	"version": "0.0.1",
+	"devDependencies": {
+		"grunt": "~0.4.5",
+		"grunt-contrib-qunit": "~0.5.2",
+		"grunt-contrib-watch": ">=0.3.1"
+	}
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="content-type" content="text/html; charser=utf-8" />
+
+	<title>Qunit test runner</title>
+
+	<link rel="stylesheet" href="lib/qunit-1.20.0.css">
+	<!-- Use the minified version of T3 -->
+	<script src="https://cdn.rawgit.com/box/t3js/v2.0.2/dist/t3.min.js"></script>
+	<script src="https://cdn.rawgit.com/box/t3js/v2.0.2/dist/t3-testing.js"></script>
+	<script src='lib/qunit-1.20.0.js'></script>
+	<script src="lib/sinon-1.17.2.js"></script>
+</head>
+<body>
+	<div id="qunit"></div> <!-- QUnit fills this with results, etc -->
+	<div id='qunit-fixture'></div>
+
+	<script src="../src/testService.js"></script>
+	<script src="../src/dependentService.js"></script>
+	<!--<script src='test.js'></script>-->
+	<script src="t3ServiceTests.js"></script>
+	<script src="t3ServiceDependentTests.js"></script>
+	<script src="test.js"></script>
+</body>
+</html>
