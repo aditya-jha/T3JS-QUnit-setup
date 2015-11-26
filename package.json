@@ -1,5 +1,5 @@
 {
-	"name": "QUnit-T3-Sample",
+	"name": "T3JS-QUnit-setup",
 	"version": "0.0.1",
 	"devDependencies": {
 		"grunt": "~0.4.5",

@@ -3,3 +3,6 @@ This repo contains the basic setup for using QUnit to test your client side code
 
 ## Dependencies
 1. [Node](https://nodejs.org/)
+
+## Setup
+1. Navigate to the directory and run `npm install`
