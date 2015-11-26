@@ -1,2 +1,5 @@
-# T3JS-project-testing-setup
-This repo contains the basic setup for including tests for your client side code if you have used &lt;a href="http://t3js.org">T3JS
+# T3JS-QUnit-setup
+This repo contains the basic setup for using QUnit to test your client side code if you have used [T3JS]("http://t3js.org")
+
+## Dependencies
+1. [Node]("https://nodejs.org/")
